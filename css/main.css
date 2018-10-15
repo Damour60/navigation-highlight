@@ -6,7 +6,9 @@ p {
 
 img {
   width: 100%;
+  display: block;
 }
+
 footer {
   font-family: Georgia, serif;
   color: #2f2d13;
