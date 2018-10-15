@@ -1,0 +1,12 @@
+p {
+  font-family: Georgia
+  color: #2f2d13
+}
+footer {
+  font-family: Georgia
+  color: #2f2d13
+}
+h1 + h2 {
+  font-family: Sigmar One
+  color: #cc1465
+}
