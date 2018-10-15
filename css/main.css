@@ -1,7 +1,19 @@
-p {
+html {
+  box-sizing: border-box;
   font-family: Georgia, serif;
-  color: #2f2d13;
   line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  color: #2f2d13;
 }
 
 img {
@@ -10,11 +22,15 @@ img {
 }
 
 footer {
-  font-family: Georgia, serif;
+
   color: #2f2d13;
   background-color: #ffe500;
   padding: .75em;
   text-align: center;
+}
+
+footer p {
+  margin: 0;
 }
 
 h1, h2 {
@@ -31,14 +47,19 @@ h2 {
   font-size: 1.875rem;
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
 nav li {
   display: inline-block;
-  margin: .3em;
+  margin-bottom: .3em;
 }
 
 nav a {
   display: inline-block;
-  font-family: Georgia, serif;
+  font-size: 1.125rem;
   padding: .2em .5em .3em;
   background-color: #b2a212;
   border-radius: 4px;
